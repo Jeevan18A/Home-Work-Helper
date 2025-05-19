@@ -1,0 +1,8 @@
+# Overview
+In the present era, unambiguous and accurate information retrieval is of paramount importance. This study poses a question-and-answer AI system that is capable of accepting questions either via text or speech and giving intelligent responses. Through Natural Language Processing (NLP) and also the exisiting deep learning techniques, the system translates the complex queries into words and also answers them.
+The foundation of the system is constructed with the models  T5 and also  DistilBERT, both strong NLP models fine-tuned on the HotpotQA dataset to support multi-hop reasoning. Users would interact with the system through typing in a query, voice it out, or inputting an image. The speech is translated into text by using a speech-to-text engine, and also an enhanced retrieval algorithm assists in locating the most suitable context for replying.
+For making the system interactive, there is a web interface created with HTML, CSS, and JavaScript and backend with Flask/FastAPI to enable easy interaction between user and AI model. Model performance is tested using common metrics such as F1-score, Precision, and also Recall, to show that it can give meaningful answers.
+This system can be used in education, research, and AI-based customer support and provides an efficient way of searching for information. By using advanced NLP methods alongside an interactive interface, this project fills the gap between humans and also AI and makes information more accessible than ever before.
+
+# Output
+![image](https://github.com/user-attachments/assets/cbf8798a-fb02-4bab-92af-3b2b67788a7c)
